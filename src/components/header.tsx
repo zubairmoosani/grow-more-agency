@@ -13,14 +13,14 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-line/80 bg-white/90 backdrop-blur-md">
-      <div className="mx-auto flex h-[88px] w-full max-w-6xl items-center justify-between px-5 sm:h-[104px] sm:px-8">
+      <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-5 sm:h-[68px] sm:px-8">
         <Link href="/" className="flex shrink-0 items-center" onClick={() => setOpen(false)}>
           <Image
-            src="/brand/grow-more.png"
+            src="/brand/grow-more-tight.png"
             alt={site.legalName}
-            width={280}
-            height={80}
-            className="h-[68px] w-auto sm:h-[80px]"
+            width={151}
+            height={115}
+            className="h-10 w-auto sm:h-11"
             priority
           />
         </Link>

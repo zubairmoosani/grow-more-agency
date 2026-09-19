@@ -8,11 +8,11 @@ export function Footer() {
       <div className="mx-auto grid w-full max-w-6xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-4">
         <div className="md:col-span-2">
           <Image
-            src="/brand/grow-more.png"
+            src="/brand/grow-more-tight.png"
             alt={site.legalName}
-            width={280}
-            height={80}
-            className="h-[80px] w-auto sm:h-[96px]"
+            width={151}
+            height={115}
+            className="h-14 w-auto sm:h-16"
           />
           <p className="mt-4 max-w-sm text-sm leading-6 text-muted">
             Web, mobile, custom software, and a live point-of-sale product —
