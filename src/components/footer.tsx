@@ -10,9 +10,9 @@ export function Footer() {
           <Image
             src="/brand/grow-more.png"
             alt={site.legalName}
-            width={160}
-            height={46}
-            className="h-11 w-auto"
+            width={280}
+            height={80}
+            className="h-[80px] w-auto sm:h-[96px]"
           />
           <p className="mt-4 max-w-sm text-sm leading-6 text-muted">
             Web, mobile, custom software, and a live point-of-sale product —
